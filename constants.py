@@ -1,13 +1,13 @@
 # General info
 
-AUTHOR_NAME = "Jeremy Gordon"
-SITENAME = "Flow"
+AUTHOR_NAME = "Hirako"
+SITENAME = "Flowboard"
 EMAIL_PREFIX = "[ Flow ] "
 TAGLINE = "A personal dashboard to focus on what matters"
-SECURE_BASE = "https://flowdash.co"
+SECURE_BASE = "https://stashberg.com"
 
 # Emails
-APP_OWNER = "onejgordon@gmail.com"
+APP_OWNER = "meed2000@gmail.com"
 ADMIN_EMAIL = APP_OWNER
 DAILY_REPORT_RECIPS = [APP_OWNER]
 SENDER_EMAIL = APP_OWNER

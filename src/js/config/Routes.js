@@ -18,7 +18,6 @@ var TrackingHistory = require('components/TrackingHistory');
 var ProjectHistory = require('components/ProjectHistory');
 var Integrations = require('components/Integrations');
 var Reports = require('components/Reports');
-var Feedback = require('components/Feedback');
 var AdminAgent = require('components/admin/AdminAgent');
 
 // Analysis
@@ -58,7 +57,6 @@ module.exports = (
       <Route path="habit/history" component={HabitHistory} />
       <Route path="project/history" component={ProjectHistory} />
       <Route path="tracking/history" component={TrackingHistory} />
-      <Route path="feedback" component={Feedback} />
       <Route path="admin/agent" component={AdminAgent} />
       <Route path="analysis" component={Analysis}>
         <IndexRedirect to="/app/analysis/goals" />

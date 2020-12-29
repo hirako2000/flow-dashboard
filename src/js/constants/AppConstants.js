@@ -1,8 +1,8 @@
 var AppConstants = {
-    YEAR: "2017",
+    YEAR: "2020",
     SITENAME: "Flow",
-    AUTHOR: "Jeremy Gordon",
-    AUTHOR_URL: "http://jgordon.io",
+    AUTHOR: "Hirako San",
+    AUTHOR_URL: "https://stashberg.com",
     PERSISTENCE: "bootstrap",
     USER_STORAGE_KEY: 'flowUser',
     DEFAULT_WEEK_START: 0, // Sunday (d.getDay())

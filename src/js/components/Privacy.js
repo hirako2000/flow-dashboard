@@ -32,8 +32,8 @@ export default class Privacy extends React.Component {
                 <h4>Contact</h4>
 
                 <p>
-                    onejgordon@gmail.com<br />
-                    Web: https://flowdash.co
+                    hirako2000@gmail.com<br />
+                    Web: https://stashberg.com
                 </p>
 
             </div>

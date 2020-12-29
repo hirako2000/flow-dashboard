@@ -71,26 +71,6 @@ export default class About extends React.Component {
                         <img src="/images/screenshots/timeline.png" className="img-responsive" />
 
 
-                        <h3>Chat with Flow</h3>
-
-                        <div className="row">
-                            <div className="col-sm-6">
-                                <div className="center-block">
-                                    <img src="/images/messenger_512.png" width="120" />
-                                </div>
-                                <p className="lead" style={{fontSize: "1.45em"}}>You can chat with <a href="https://www.facebook.com/FlowDashboard/" target="_blank">Flow on Facebook Messenger</a> to review goals, commit to and complete tasks and habits, and answer your daily journal questions.</p>
-                            </div>
-                            <div className="center-block">
-                                <img src="/images/gassistant_512.png" width="120" />
-                                <p className="lead" style={{fontSize: "1.45em"}}>You can also interact with Flow via <a href="https://assistant.google.com/services/a/uid/000000832a6c27e4?hl=en-GB" target="_blank">Google Assitant</a>, and therefore via Google Home or Assistant on mobile. Try saying "Ok Google, Talk to Flow Dashboard", or "Hey Google at Flow Dashboard, mark run as complete".</p>
-                            </div>
-                        </div>
-
-
-                        <div hidden={user != null}>
-                            <h3>Try Flow</h3>
-                            <p className="lead" style={{fontSize: "1.45em"}}><Link to="/app/login"><RaisedButton primary={true} label="Sign in" /></Link> to get started.</p>
-                        </div>
 
                         <div className="row">
                             <div className="col-sm-6">
@@ -105,8 +85,8 @@ export default class About extends React.Component {
                             </div>
                             <div className="col-sm-6">
                                 <h3>Flow is Open Source</h3>
-                                <p className="lead" style={{fontSize: "1.45em"}}>Run your own instance of Flow, or contribute. Also see the <a href="http://docs.flowdash.apiary.io/" target="_blank">API documentation</a>.</p>
-                                <a href="https://github.com/onejgordon/flow-dashboard" target="_blank"><RaisedButton label="Source on Github" /></a>
+                                <p className="lead" style={{fontSize: "1.45em"}}>Run your own instance of Flow, or contribute.</p>
+                                <a href="https://github.com/hirako2000/flow-dashboard" target="_blank"><RaisedButton label="Source on Github" /></a>
                             </div>
                         </div>
 
